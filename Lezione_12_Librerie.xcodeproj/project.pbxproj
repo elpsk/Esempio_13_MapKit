@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB79DA451475B1BC0007DCB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB79DA441475B1BC0007DCB8 /* UIKit.framework */; };
+		AB79DA471475B1BC0007DCB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB79DA461475B1BC0007DCB8 /* Foundation.framework */; };
+		AB79DA491475B1BC0007DCB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB79DA481475B1BC0007DCB8 /* CoreGraphics.framework */; };
+		AB79DA4F1475B1BC0007DCB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB79DA4D1475B1BC0007DCB8 /* InfoPlist.strings */; };
+		AB79DA511475B1BC0007DCB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79DA501475B1BC0007DCB8 /* main.m */; };
+		AB79DA551475B1BC0007DCB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79DA541475B1BC0007DCB8 /* AppDelegate.m */; };
+		AB79DA581475B1BC0007DCB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79DA571475B1BC0007DCB8 /* ViewController.m */; };
+		AB79DA5B1475B1BC0007DCB8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB79DA591475B1BC0007DCB8 /* ViewController.xib */; };
+		AB79DA621475B2100007DCB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB79DA611475B2100007DCB8 /* MapKit.framework */; };
+		AB79DA641475B2BC0007DCB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB79DA631475B2BC0007DCB8 /* CoreLocation.framework */; };
+		AB79DA661475B7CD0007DCB8 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = AB79DA651475B7CD0007DCB8 /* pin.png */; };
+		AB79DA6D1475BB360007DCB8 /* CutawayAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79DA6C1475BB360007DCB8 /* CutawayAnnotation.m */; };
+		AB79DA701475BD3D0007DCB8 /* AlbertoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79DA6F1475BD3D0007DCB8 /* AlbertoAnnotation.m */; };
+		AB79DA731475BE8C0007DCB8 /* lecce.png in Resources */ = {isa = PBXBuildFile; fileRef = AB79DA721475BE8C0007DCB8 /* lecce.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB79DA401475B1BC0007DCB8 /* Lezione_12_Librerie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lezione_12_Librerie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB79DA441475B1BC0007DCB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB79DA461475B1BC0007DCB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB79DA481475B1BC0007DCB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB79DA4C1475B1BC0007DCB8 /* Lezione_12_Librerie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lezione_12_Librerie-Info.plist"; sourceTree = "<group>"; };
+		AB79DA4E1475B1BC0007DCB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB79DA501475B1BC0007DCB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB79DA521475B1BC0007DCB8 /* Lezione_12_Librerie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lezione_12_Librerie-Prefix.pch"; sourceTree = "<group>"; };
+		AB79DA531475B1BC0007DCB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB79DA541475B1BC0007DCB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB79DA561475B1BC0007DCB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB79DA571475B1BC0007DCB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB79DA5A1475B1BC0007DCB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AB79DA611475B2100007DCB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AB79DA631475B2BC0007DCB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB79DA651475B7CD0007DCB8 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		AB79DA6B1475BB360007DCB8 /* CutawayAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutawayAnnotation.h; sourceTree = "<group>"; };
+		AB79DA6C1475BB360007DCB8 /* CutawayAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutawayAnnotation.m; sourceTree = "<group>"; };
+		AB79DA6E1475BD3D0007DCB8 /* AlbertoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbertoAnnotation.h; sourceTree = "<group>"; };
+		AB79DA6F1475BD3D0007DCB8 /* AlbertoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbertoAnnotation.m; sourceTree = "<group>"; };
+		AB79DA721475BE8C0007DCB8 /* lecce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecce.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB79DA3D1475B1BC0007DCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB79DA641475B2BC0007DCB8 /* CoreLocation.framework in Frameworks */,
+				AB79DA621475B2100007DCB8 /* MapKit.framework in Frameworks */,
+				AB79DA451475B1BC0007DCB8 /* UIKit.framework in Frameworks */,
+				AB79DA471475B1BC0007DCB8 /* Foundation.framework in Frameworks */,
+				AB79DA491475B1BC0007DCB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB79DA351475B1BC0007DCB8 = {
+			isa = PBXGroup;
+			children = (
+				AB79DA4A1475B1BC0007DCB8 /* Lezione_12_Librerie */,
+				AB79DA431475B1BC0007DCB8 /* Frameworks */,
+				AB79DA411475B1BC0007DCB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB79DA411475B1BC0007DCB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB79DA401475B1BC0007DCB8 /* Lezione_12_Librerie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB79DA431475B1BC0007DCB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB79DA631475B2BC0007DCB8 /* CoreLocation.framework */,
+				AB79DA611475B2100007DCB8 /* MapKit.framework */,
+				AB79DA441475B1BC0007DCB8 /* UIKit.framework */,
+				AB79DA461475B1BC0007DCB8 /* Foundation.framework */,
+				AB79DA481475B1BC0007DCB8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB79DA4A1475B1BC0007DCB8 /* Lezione_12_Librerie */ = {
+			isa = PBXGroup;
+			children = (
+				AB79DA711475BD650007DCB8 /* PIN */,
+				AB79DA531475B1BC0007DCB8 /* AppDelegate.h */,
+				AB79DA541475B1BC0007DCB8 /* AppDelegate.m */,
+				AB79DA561475B1BC0007DCB8 /* ViewController.h */,
+				AB79DA571475B1BC0007DCB8 /* ViewController.m */,
+				AB79DA591475B1BC0007DCB8 /* ViewController.xib */,
+				AB79DA4B1475B1BC0007DCB8 /* Supporting Files */,
+			);
+			path = Lezione_12_Librerie;
+			sourceTree = "<group>";
+		};
+		AB79DA4B1475B1BC0007DCB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB79DA721475BE8C0007DCB8 /* lecce.png */,
+				AB79DA651475B7CD0007DCB8 /* pin.png */,
+				AB79DA4C1475B1BC0007DCB8 /* Lezione_12_Librerie-Info.plist */,
+				AB79DA4D1475B1BC0007DCB8 /* InfoPlist.strings */,
+				AB79DA501475B1BC0007DCB8 /* main.m */,
+				AB79DA521475B1BC0007DCB8 /* Lezione_12_Librerie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB79DA711475BD650007DCB8 /* PIN */ = {
+			isa = PBXGroup;
+			children = (
+				AB79DA6E1475BD3D0007DCB8 /* AlbertoAnnotation.h */,
+				AB79DA6F1475BD3D0007DCB8 /* AlbertoAnnotation.m */,
+				AB79DA6B1475BB360007DCB8 /* CutawayAnnotation.h */,
+				AB79DA6C1475BB360007DCB8 /* CutawayAnnotation.m */,
+			);
+			name = PIN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB79DA3F1475B1BC0007DCB8 /* Lezione_12_Librerie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB79DA5E1475B1BC0007DCB8 /* Build configuration list for PBXNativeTarget "Lezione_12_Librerie" */;
+			buildPhases = (
+				AB79DA3C1475B1BC0007DCB8 /* Sources */,
+				AB79DA3D1475B1BC0007DCB8 /* Frameworks */,
+				AB79DA3E1475B1BC0007DCB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lezione_12_Librerie;
+			productName = Lezione_12_Librerie;
+			productReference = AB79DA401475B1BC0007DCB8 /* Lezione_12_Librerie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB79DA371475B1BC0007DCB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cutaway SRL";
+			};
+			buildConfigurationList = AB79DA3A1475B1BC0007DCB8 /* Build configuration list for PBXProject "Lezione_12_Librerie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB79DA351475B1BC0007DCB8;
+			productRefGroup = AB79DA411475B1BC0007DCB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB79DA3F1475B1BC0007DCB8 /* Lezione_12_Librerie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB79DA3E1475B1BC0007DCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB79DA4F1475B1BC0007DCB8 /* InfoPlist.strings in Resources */,
+				AB79DA5B1475B1BC0007DCB8 /* ViewController.xib in Resources */,
+				AB79DA661475B7CD0007DCB8 /* pin.png in Resources */,
+				AB79DA731475BE8C0007DCB8 /* lecce.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB79DA3C1475B1BC0007DCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB79DA511475B1BC0007DCB8 /* main.m in Sources */,
+				AB79DA551475B1BC0007DCB8 /* AppDelegate.m in Sources */,
+				AB79DA581475B1BC0007DCB8 /* ViewController.m in Sources */,
+				AB79DA6D1475BB360007DCB8 /* CutawayAnnotation.m in Sources */,
+				AB79DA701475BD3D0007DCB8 /* AlbertoAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB79DA4D1475B1BC0007DCB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB79DA4E1475B1BC0007DCB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB79DA591475B1BC0007DCB8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB79DA5A1475B1BC0007DCB8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB79DA5C1475B1BC0007DCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB79DA5D1475B1BC0007DCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB79DA5F1475B1BC0007DCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lezione_12_Librerie/Lezione_12_Librerie-Prefix.pch";
+				INFOPLIST_FILE = "Lezione_12_Librerie/Lezione_12_Librerie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB79DA601475B1BC0007DCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lezione_12_Librerie/Lezione_12_Librerie-Prefix.pch";
+				INFOPLIST_FILE = "Lezione_12_Librerie/Lezione_12_Librerie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB79DA3A1475B1BC0007DCB8 /* Build configuration list for PBXProject "Lezione_12_Librerie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB79DA5C1475B1BC0007DCB8 /* Debug */,
+				AB79DA5D1475B1BC0007DCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB79DA5E1475B1BC0007DCB8 /* Build configuration list for PBXNativeTarget "Lezione_12_Librerie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB79DA5F1475B1BC0007DCB8 /* Debug */,
+				AB79DA601475B1BC0007DCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB79DA371475B1BC0007DCB8 /* Project object */;
+}
